@@ -1,13 +1,11 @@
 
 import java.util.Properties
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin") // Re-add Secrets Gradle Plugin
 }
-
 android {
     namespace = "com.example.babybot"
     compileSdk = 35

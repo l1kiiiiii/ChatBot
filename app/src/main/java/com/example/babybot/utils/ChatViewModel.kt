@@ -1,9 +1,11 @@
-package com.example.babybot
+package com.example.babybot.utils
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.babybot.BuildConfig
+import com.example.babybot.utils.RetrofitClient
 import kotlinx.coroutines.launch
 
 open class ChatViewModel : ViewModel() {

@@ -1,4 +1,4 @@
-package com.example.babybot
+package com.example.babybot.utils
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
