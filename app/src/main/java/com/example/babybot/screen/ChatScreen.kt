@@ -15,8 +15,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.babybot.ChatViewModel
-import com.example.babybot.Message
+import com.example.babybot.utils.ChatViewModel
+import com.example.babybot.utils.Message
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
